@@ -20,7 +20,7 @@ elif operator == '/':
   ans = num1 / num2
   operation = 'Division'
 elif operator == '^':
-  ans = num1 ** num2
+  ans = num1 ** 2
   operation = 'Square'
 else:
   print('Plz enter a valid operator')
