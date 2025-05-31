@@ -3,6 +3,9 @@ print(info)
 print(info.keys())
 print(info.values())
 
+for value in info.values():
+  print(value)
+
 for key in info.keys():
   print(f" {key} : {info[key]}")
 
