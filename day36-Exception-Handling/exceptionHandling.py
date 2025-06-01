@@ -16,5 +16,5 @@ try:
 except ValueError:
     print("Number entered is not an integer.")
     
-except IndexError:
-  print("Index Error")
+except IndexError as e:
+  print("Index Error:",e)
