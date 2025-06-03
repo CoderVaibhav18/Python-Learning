@@ -1,0 +1,3 @@
+import vaibhav
+
+vaibhav.welcome()
