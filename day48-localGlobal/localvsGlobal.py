@@ -1,4 +1,4 @@
-x = 10  # global variable
+x = 18  # global variable
 
 
 def my_function():
