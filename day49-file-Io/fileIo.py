@@ -1,4 +1,4 @@
-
+# Extract - read file
 f = open('hello.txt', 'r')
 # print(f)
 text = f.read()
