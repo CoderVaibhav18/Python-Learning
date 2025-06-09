@@ -5,7 +5,7 @@ class Employee:
   
   @classmethod
   def fromStr(cls, string):
-    return cls(string.split('-')[0], string.split('-')[1])
+    return cls(string.split('-')[0], int(string.split('-')[1]))
     
 e1 = Employee("Vaibhav", 20000)
 print(e1.name)
