@@ -1,3 +1,8 @@
+# class method in python
+# Class ke naam se call hota hai (object ki zarurat nahi hoti)
+# Uska first parameter cls hota hai, na ki self
+# cls ka use karke class variables ya class ko hi modify kar sakte ho
+
 class Employee:
   company = "Apple"
   
