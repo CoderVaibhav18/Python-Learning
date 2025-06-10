@@ -16,8 +16,9 @@ for i in range(0, no_of_pdf):
   pdf_files.append(pdf_input)
 
 for pdfFile in pdf_files:
-  inputs = open(f"pdf/{pdfFile}", "rb")
-  merger.append(fileobj=inputs)
+  if pdfFile.endswith(".pdf"):
+    inputs = open(f"pdf/{pdfFile}", "rb")
+    merger.append(fileobj=inputs)
 
 output = open("pdf/new-output.pdf", "wb")
 merger.write(output)
